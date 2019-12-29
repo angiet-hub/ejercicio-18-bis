@@ -1,0 +1,145 @@
+body {
+        font-family: 'Lato', Calibri, Arial, sans-serif;
+        color: #b3b9bf;
+    }
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.example-one {
+    background-color: rgb(31, 31, 70);
+    height: 274px;
+    width: 364px;
+    position:relative;
+    margin-top: 46px;
+}
+
+.img-one {
+    position:absolute;
+    transition: 0.2s;
+    width: 100%;
+}
+
+.fig-one {
+    padding-top: 166px;
+    padding-left: 14px;
+}
+
+h3 {
+    margin-bottom: 3px;
+    font-size: 26px;
+}
+
+.button-one {
+    margin-left: 82px;
+    width: 144px;
+    height: 31px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: rgb(241, 58, 89);
+}
+
+.img-one:hover {
+    transform:scale(0.5);
+    bottom:34px;
+}
+
+
+
+.example-two {
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.img-two {
+    width: 560px;
+    height: 335px;
+    opacity:0.7;
+
+}
+
+.example-two {
+    position: relative;
+}
+
+.fig-two {
+    position: absolute;
+    bottom: 38px;
+    padding-left: 20px;
+    color: rgb(77, 72, 72);
+}
+.text {
+    transition:.2s;
+}
+
+p {
+    display: none;
+    font-size: 20px;
+    transition:.2;
+}
+
+.example-two:hover p {
+    display: block;
+}
+
+.example-two:hover .img-two {
+    opacity:1;
+}
+
+.example-two:hover .text {
+    font-size: 34px;
+    color:black;
+}
+
+
+
+
+.btn {
+    color: whitesmoke;
+    background-color: rgb(211, 15, 48);
+    border-radius: 24px;
+    margin: 27px;
+    width: 217px;
+    height: 90px;
+    border: none;
+    box-shadow: 0 8px rgb(122, 3, 87);
+    position: relative;
+}
+
+.btn:hover {
+    top: 2px;
+    box-shadow: 0 6px rgb(122, 3, 87);
+}
+
+
+
+
+.btn-arrow {
+    width: 217px;
+    height: 90px;
+    background-color:rgb(10, 170, 10);
+    color:white;
+    border-radius: 600px;
+    position: relative;
+    
+}
+
+.fas {
+    padding-left: 13px;
+    margin-right: -16px;
+    display: none;
+    position: absolute;
+    right: 0px;
+    bottom: 35px;
+    transition: .2s;
+}
+
+.btn-arrow:hover .fas {
+    display: inline-block;
+    right: 45px;
+    bottom: 35px;
+}
+
