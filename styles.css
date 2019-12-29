@@ -58,7 +58,7 @@ h3 {
     width: 560px;
     height: 335px;
     opacity:0.7;
-
+    position:absolute;
 }
 
 .example-two {
@@ -87,6 +87,7 @@ p {
 
 .example-two:hover .img-two {
     opacity:1;
+    transform: scale(1.2)
 }
 
 .example-two:hover .text {
