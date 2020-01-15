@@ -20,6 +20,7 @@ body {
     position:absolute;
     transition: 0.2s;
     width: 100%;
+    bottom: 0;
 }
 
 .fig-one {
@@ -41,7 +42,7 @@ h3 {
     background-color: rgb(241, 58, 89);
 }
 
-.img-one:hover {
+.example-one:hover > .img-one {
     transform:scale(0.5);
     bottom:34px;
 }
@@ -59,6 +60,7 @@ h3 {
     height: 335px;
     opacity:0.7;
     position:absolute;
+    transition: .3s;
 }
 
 .example-two {
@@ -78,7 +80,7 @@ h3 {
 p {
     display: none;
     font-size: 20px;
-    transition:.2;
+    transition:.2s;
 }
 
 .example-two:hover p {
